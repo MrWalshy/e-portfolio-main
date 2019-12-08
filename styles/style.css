@@ -1,0 +1,33 @@
+.main-image-frame {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+#mainImage {
+    background-image: url("../images/me_and_joey.jpg");
+    background-size: cover;
+    box-shadow: 0 0 2px 1px darkslategrey;
+}
+
+.main-image {
+    width: 100px;
+    height: 100px;
+
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.full-size-image {
+    width: 80vw;
+    height: 80vh;
+
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.contact-link:hover {
+    font-size: 1.2rem;
+}
+
