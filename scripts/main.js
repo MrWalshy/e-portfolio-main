@@ -4,6 +4,7 @@ let previous = document.getElementById("goBack")
 let next = document.getElementById("goForward")
 let contentIndex = 0
 
+// init
 mainImage.addEventListener("click", function(){
     this.classList.toggle("main-image")
     this.classList.toggle("full-size-image")

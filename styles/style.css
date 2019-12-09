@@ -2,6 +2,7 @@
     font-family: "Nunito", sans-serif;
 }
 
+/* index */
 .full-view-height {
     height: 100vh;
     width: 100vw;
@@ -40,9 +41,9 @@
     font-size: 1.2rem;
 }
 
-.card {
+/* .card {
     border: none;
-}
+} */
 
 .content-container {
     position: relative;
@@ -69,3 +70,9 @@
 .prev:hover, .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
+
+/* projects */
+.expand-btn {
+    
+}
+
