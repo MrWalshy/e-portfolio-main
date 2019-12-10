@@ -1,5 +1,7 @@
 let projectCards = document.getElementsByClassName("project-card")
 let expandButtons = document.getElementsByClassName("expand-btn")
+let expandButtonText = document.getElementsByClassName("expand-btn-text")
+let shrinkButtonText = document.getElementsByClassName("shrink-btn-text")
 
 // init
 addExpandButttons()
@@ -14,8 +16,9 @@ function addExpandButttons(){
             projectCards[i].classList.toggle("d-none")
             // toggle size
             projectCards[i].classList.toggle("col-md-5")
-            projectCards[i].classList.toggle("col-xl-3")
-            
+            // change expand/shrink buttons
+            expandButtonText[i].classList.toggle("d-none")
+            shrinkButtonText[i].classList.toggle("d-none")
         })
     }
 }
