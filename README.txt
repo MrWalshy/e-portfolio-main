@@ -1,0 +1,1 @@
+* changed project card bodies to display flex
