@@ -1,0 +1,61 @@
+* {
+    font-family: "Nunito", sans-serif;
+}
+
+html {
+    position: relative;
+    min-height: 100vh;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.main-image-frame {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+#mainImage {
+    background-image: url("../images/me_and_joey.jpg");
+    background-size: cover;
+    box-shadow: 0 0 2px 1px darkslategrey;
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.contact-link:hover {
+    font-size: 1.2rem;
+}
+
+/*  */
+.content-container {
+    position: relative;
+    margin: auto;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
